@@ -1,5 +1,5 @@
 /* место для вашего кода */
-.header {  
+.header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   padding: 92px 50px;
@@ -42,7 +42,7 @@
   font-style: normal;
 }
 
-.cover {  
+.cover {
   position: relative;
   z-index: 0;
   height: 757px;
@@ -54,11 +54,11 @@
 
 .overlay {
   position: absolute;
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  z-index: 1; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -91,11 +91,11 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0em; 
+  letter-spacing: 0em;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em; 
+  letter-spacing: 0.6em;
 }
 
 .cover__description {
@@ -109,11 +109,11 @@
   
 }
 
-.cover__description-text { 
+.cover__description-text {
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-  line-height: 28px;  
+  line-height: 28px;
   font-weight: 400;
   text-transform: uppercase;
   word-spacing: 20px;
@@ -132,7 +132,6 @@
   font-weight: 500;
   word-spacing: 5px;
   font-size: 22px;
-  font-weight: 500;
   color: #fff;
   text-transform: uppercase;
 }
@@ -153,14 +152,14 @@
 }
 
 .lots__card-list {
-  display: flex;  
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
 
-.lots__card-list-item {  
+.lots__card-list-item {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -171,7 +170,7 @@
 
 .card_type_film {
   position: relative;
-  z-index: 0;  
+  z-index: 0;
   background-image: url(/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -198,7 +197,7 @@
 
 .card-link {
   position: relative;
-  z-index: 2;  
+  z-index: 2;
   height: 100%;
   display: block;
 }
@@ -258,7 +257,7 @@
 }
 
 .about__logo-image {
-  position: absolute;  
+  position: absolute;
   left: 50%; 
   top: 50%;
   z-index: 1;
