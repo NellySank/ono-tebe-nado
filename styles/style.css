@@ -7,8 +7,8 @@
 }
 
 .header__logo {
-  width: 148px;
-  height: 105px;
+  width: 129px;
+  height: 104px;
 }
 
 .header__menu {
@@ -16,8 +16,9 @@
 }
 
 .header__address {
+  width: 240px;
   justify-self: end;
-  align-self: flex-end;
+  align-self: end;
 }
 
 .header__links-list {
@@ -37,7 +38,7 @@
   font-size: 18px;
   font-family: Raleway;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 24.3px;
   font-style: normal;
 }
 
@@ -49,7 +50,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .overlay {
@@ -77,15 +77,17 @@
 
 .aligned-text {
   display: block;
+  line-height: 125px;
 }
 
 .aligned-text_center {
   text-align: center;
-  line-height: 100px;
+  line-height: 115px;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 130px;
 }
 
 .no-letter-spacing {
@@ -100,7 +102,7 @@
   position: relative;
   z-index: 2;
   left: 78px;
-  top: 667px;
+  top: 658px;
   display: flex;
   align-items: center;
   gap: 79px;
@@ -283,7 +285,7 @@
 }
 
 .footer {
-  padding: 180px 50px 88px 50px;
+  padding: 90px 50px 88px;
   display: flex;
   gap: 185px;
   justify-content: space-between;
@@ -293,6 +295,7 @@
 .footer__menu-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   justify-items: center;
   align-items: center;
   list-style-type: none;
