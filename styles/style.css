@@ -121,6 +121,7 @@
 
 .bet-button {
   background-color: transparent;
+  padding: 12px 20px 11px 20px;
   width: 256px;
   height: 51px;
   border: 1px solid #fff;
@@ -130,6 +131,10 @@
 .button_text {
   font-weight: 500;
   word-spacing: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .lots {
