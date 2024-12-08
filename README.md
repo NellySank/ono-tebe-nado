@@ -1,1 +1,1 @@
-git@github.com:NellySank/ono-tebe-nado.git
+https://github.com/NellySank/ono-tebe-nado
